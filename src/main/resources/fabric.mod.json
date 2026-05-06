@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "server-anticheat",
+  "version": "1.0.0",
+  "name": "Server AntiCheat",
+  "description": "High-performance specialized anti-cheat for 26.1.2",
+  "authors": [
+    "Krontixz"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/server-anticheat/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.krontixz.serveranticheat.AntiCheat"
+    ]
+  },
+  "mixins": [
+    "server-anticheat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.148.0",
+    "minecraft": "26.1.2",
+    "java": ">=25"
+  }
+}
